@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class HelloCloudplugApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HelloCloudplugApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(HelloCloudplugApplication.class, args);
+    }
 
-	@RestController
+    @RestController
     public class CloudPlugController {
 
-	    @GetMapping
+        @GetMapping
         public ResponseEntity<String> helloCloudPlug() {
-	        return new ResponseEntity<>("Hello CloudPlug", HttpStatus.OK);
+            return new ResponseEntity<>("Hello CloudPlug", HttpStatus.OK);
         }
     }
 }
