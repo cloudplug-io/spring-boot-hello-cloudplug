@@ -1,0 +1,10 @@
+application:
+    name: hello-cloudplug
+    port: 8080
+    runtime: java
+    framework: spring-boot
+#   env:
+#       - name: value
+#       - name: value
+#       - name: value
+#       - name: value
