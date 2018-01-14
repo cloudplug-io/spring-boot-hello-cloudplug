@@ -3,6 +3,7 @@ application:
     port: 8080
     runtime: java
     framework: spring-boot
+    build: gradle
 #   env:
 #       - name: value
 #       - name: value
